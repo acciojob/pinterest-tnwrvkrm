@@ -3,6 +3,18 @@
 	position: relative;
 }
 
-div{
+div,img{
 	display: inline-block;
+}
+
+img{
+	object-fit: cover;
+}
+
+a{
+	background-color:violet;
+	color:green;
+	padding:10px 15px;
+	border-radius:5px;
+	text-decoration: none;
 }
